@@ -24,6 +24,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+@include media('print') {
+  body {
+    background: #ffffff;
+  }
+}
+
 a,
 strong {
   color: teal;

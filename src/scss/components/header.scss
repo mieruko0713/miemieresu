@@ -76,19 +76,19 @@ address {
   font-size: 18px;
   float: left;
   padding-left: 16px;
-  @include media("<=desktop") {
+  display: flex;
+  flex-direction: column;
+  height: 145px;
+  @include media('<=desktop') {
     margin-top: 5px;
-    li {
-      line-height: 1.6;
-    }
   }
-  @include media("print") {
-    line-height: 1.4;
+  @include media('print') {
     margin-top: 0;
   }
   li {
     font-style: initial;
     line-height: 1.4;
+    flex: 1;
   }
   a {
     transition: 0.3s ease-out;

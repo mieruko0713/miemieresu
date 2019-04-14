@@ -2,156 +2,122 @@
   "Author": "Lxxyx - Inspired by Joyee Cheung",
   "Guide": [
     "照着这里面的格式填写即可",
-    "PDF会自动生成，文件名可以在 generate_pdf.js 里改",
-    "PDF的地址，将这个文件里pdf部分改为你的PDF文件名即可"
+    "PDF会自动生成,文件名可以在 generate_pdf.js 里改",
+    "PDF的地址,将这个文件里pdf部分改为你的PDF文件名即可"
   ],
-  "title": "刘子健 - 前端工程师",
-  "aside": [{
-    "href": "https://github.com/Lxxyx/LxxyxResume",
-    "content": "源代码"
-  }, {
-    "href": "./pdf/LxxyxResume.pdf",
-    "content": "PDF下载"
-  }, {
-    "href": "https://segmentfault.com/u/lxxyx",
-    "content": "SF"
-  }, {
-    "href": "https://www.zhihu.com/people/lxxyx",
-    "content": "知乎"
-  }],
+  "title": "王怡凡 - 前端工程师",
+  "aside": [
+    {
+      "href": "./pdf/MierukoResume.pdf",
+      "content": "PDF下载"
+    }
+  ],
   "header": {
     "title": {
-      "name": "刘子健",
-      "job": "前端工程师（淘宝FED-已转正）"
+      "name": "王怡凡",
+      "job": ""
     },
     "contacts": {
-      "phone": "15579185518",
-      "mail": "Lxxyxzj@gmail.com",
-      "wechat": "Greboxer",
+      "phone": "13407191661",
+      "mail": "wanzifun@gmail.com",
+      "wechat": "Mcdull0713",
       "weibo": {
         "href": "http://weibo.com/u/2239592792",
         "name": "刘子健_且行且歌"
       },
       "github": {
-        "href": "https://github.com/Lxxyx",
-        "name": "Lxxyx"
+        "href": "https://github.com/mieruko0713",
+        "name": "Mieruko0713"
       },
       "blog": {
-        "href": "http://www.lxxyx.win",
-        "name": "Lxxyx的前端乐园"
+        "href": "http://www.mieruko.cn",
+        "name": "Mieruko0713的实验室"
       }
     }
   },
   "education": {
     "time": "2014-2018",
-    "name": "南昌大学",
-    "major": "人力资源管理（本科）",
+    "name": "华中师范大学",
+    "major": "信息管理与信息系统（本科）",
     "honor": [
-      "2015.3 - 2016.8 南昌大学家园工作室 — 前端开发",
-      "2016.9 - 2017.6 `南昌大学家园工作室 — 前端负责人`"
+      "2015.10 `国家奖学金`",
+      "2017.09 中国高校计算机大赛移动应用创新赛 - `全国三等奖`（排位10/453）"
     ]
   },
   "language": {
-    "cert": [{
-      "name": "CET-4",
-      "grade": 491,
-      "fullmarks": 710
-    }],
+    "cert": [
+      {
+        "name": "CET-6",
+        "grade": 573,
+        "fullmarks": 710
+      },
+      {
+        "name": "CET-4",
+        "grade": 623,
+        "fullmarks": 710
+      }
+    ],
     "skills": [
-      "能较为流畅的阅读开发文档及其他资料",
-      "可在英文字幕下观看 MOOC 课程、开发者大会视频",
-      "能正常使用Google与Stack Overflow解决开发问题"
+      "`能流畅阅读英文专业书籍、文档及其他资料`",
+      "可`无字幕观看` MOOC 课程、开发者大会视频",
+      "能正常使用 Google 与 Stack Overflow 解决开发问题，在 Github 等社区正常交流"
     ]
   },
-  "experience": [{
+  "experience": [
+    {
       "title": {
-        "place": "淘宝前端团队",
-        "time": "2017.06-至今"
+        "place": "滴滴出行-基础平台部-架构组",
+        "time": "2018.01.22 - 至今"
       },
       "content": {
-        "position": " Web 前端实习生",
+        "position": "实习前端工程师",
         "tasks": [
-          "使用 Weex/Rax 开发线上页面",
-          "使用 React 开发后台管理系统",
-          "学习性能优化相关知识",
-          "2017.09.02 `转正`"
+          "参与某后台系统的开发, 学习使用 Vue 及周边插件完成单页应用",
+          "了解 Vue 的基本原理，尝试阅读部分源代码",
+          "`基于公司项目与人员情况，开发中后台应用构建工具，提高团队效率，解放人力`",
+          "使用 Electron + Vue 完成中后台应用构建工具的开发"
         ]
       }
     },
     {
       "title": {
-        "place": "家园工作室",
-        "time": "2015.3-2017.06"
+        "place": "一图-高校图书馆合作伙伴",
+        "links": [
+          {
+            "name": "源代码",
+            "href": "https://github.com/1ibrary/1ibrary-front-end"
+          }
+        ]
       },
       "content": {
         "position": "前端开发",
         "tasks": [
-          "使用 `React/Vue` , 开发单页应用",
-          "使用 `React Native` 开发 `Android/iOS App` ",
-          "负责工作室日常前端工作安排，定期开展前端分享会，解决疑难 BUG ",
-          "制定工作室前端技术栈，代码规范及新人前端学习路线"
+          "使用 `React Native + Redux` 完成整个App",
+          "熟悉 React 主要运行机制，尝试阅读部分源代码",
+          "封装 AsyncStorage，简化存取数据的操作，避免不必要的出错",
+          "编写样式工具，实现部分UI自适应的需求",
+          "2017.09获中国高校计算机大赛移动应用创新赛全国三等奖"
         ]
       }
-    }, {
+    },
+    {
       "title": {
-        "place": "百度企业产品用户体验中心",
-        "time": "2016.10-2017.2"
-      },
-      "content": {
-        "position": " Web 前端实习生",
-        "tasks": [
-          "参与某后台系统的开发与重构, 使用 Riot 完成项目",
-          "学习前端技术选型，代码可读性优化等知识",
-          "学习公司开发流程，制度等软知识"
+        "place": "Mieruko-Blog",
+        "links": [
+          {
+            "name": "源代码",
+            "href": "https://github.com/mieruko0713/node-blog"
+          }
         ]
-      }
-    }, {
-      "title": {
-        "place": "北京闪银奇异",
-        "time": "2016.07-2016.08"
       },
       "content": {
-        "position": " Web 前端实习生",
+        "position": "前端开发&后端开发",
         "tasks": [
-          "使用 `ES6 + Webpack/Rollup` 重构大量老代码，提高代码可读性与可维护性",
-          "使用 `Koa2 + NeDb + Vue` ,开发生日提醒与查询系统",
-          "`深入学习移动端 Web 开发与移动端常见调试方式`"
-        ]
-      }
-    }, {
-      "title": {
-        "place": "南大家园-iNCU",
-        "time": "2017.01-至今",
-        "links": [{
-          "name": "下载链接",
-          "href": "http://incu.ncuos.com/"
-        }]
-      },
-      "content": {
-        "position": "客户端/前端/后台",
-        "tasks": [
-          "使用 `React Native` + `TypeScript` + `Redux & Redux-saga` 完成整个App",
-          "负责 App 的性能优化，提升运行速度",
-          "负责 Android/iOS SDK集成，App更新，数据统计等 `React Native 原生拓展功能的开发`",
-          "负责课程表/反馈/空闲教室等功能的后端开发，并使用 `Docker` 部署",
-          "`编写100+单元测试`, 确保 App 迭代，重构，日常运行的稳定性，部分功能采取 TDD 方式开发",
-          "注重代码可维护性与健壮性，`多次重构以提高代码可维护性`"
-        ]
-      }
-    }, {
-      "title": {
-        "place": "Koa2-Easy",
-        "links": [{
-          "name": "源代码",
-          "href": "https://github.com/Lxxyx/koa2-easy"
-        }]
-      },
-      "content": {
-        "position": "Node.js",
-        "tasks": [
-          "基于 `Koa2`，从自身需求出发，加速开发",
-          "默认支持 `CORS跨域，Gzip，文件上传`等功能，",
-          "编写模板中间件 `Koa-ArtTemplate` 与脚手架，支持生成 TypeScript 模板，上手即用"
+          "使用 `Express + MongoDB` 完成博客系统",
+          "实现 登录/注册 功能，使用 `Cookie + Session` 完成会话持久化",
+          "使用 Mongoose 定义 Model，实现文章的持久化存储",
+          "使用 body-parser，实现解析JSON请求",
+          "使用 `EJS`，实现模板渲染"
         ]
       }
     }
@@ -159,69 +125,71 @@
   "skills": {
     "flags": {
       "name": "Web前端",
-      "skill": [{
-        "name": "`HTML/CSS`",
-        "description": [
-          "能够编写语义化的 `HTML` ，熟悉 `CSS` 的使用，实现常用的布局与动画",
-          "了解 `HTML5/CSS3` ，并能熟练使用部分新特性",
-          "不借助框架，能编写`响应式/移动端网页`"
-        ]
-      }, {
-        "name": "`ECMAScript（JavaScript）`",
-        "description": [
-          "熟悉 JavaScript ，`代码编写遵守规范`",
-          "了解` JavaScript 面向对象知识`与 `MV*` 模式",
-          "学习 ECMAScript 规范，不断实践并在新项目中应用，`熟练使用 ES6/7 开发项目 `",
-          "熟悉 JavaScript 异步编程，`掌握常见的异步解决方案`"
-        ]
-      }, {
-        "name": "前端工程化实践",
-        "description": [
-          "日常使用 `TypeScript` 完成前后端项目",
-          "熟练使用 `React/Vue` ，完成单页和常见应用的编写",
-          "熟练使用 `React Native/Weex` 开发 App",
-          "熟悉 jQuery/Bootstrap 等常见框架类库的使用",
-          "熟练使用 `Gulp , Webpack , Rollup` 等代码构建工具"
-        ]
-      }]
+      "skill": [
+        {
+          "name": "`HTML/CSS`",
+          "description": [
+            "能够编写语义化的 `HTML` ，熟悉 `CSS` 的使用,实现常用的布局与动画",
+            "了解 `HTML5/CSS3` ，并能熟练使用部分新特性",
+            "不借助框架，能编写`响应式/移动端网页`"
+          ]
+        },
+        {
+          "name": "`ECMAScript（JavaScript）`",
+          "description": [
+            "熟悉 JavaScript ，`代码编写遵守规范`",
+            "学习 ECMAScript 规范，不断实践并在新项目中应用，`熟练使用部分 ES6 特性开发项目 `",
+            "熟悉 JavaScript 异步编程，`掌握常见的异步解决方案`"
+          ]
+        },
+        {
+          "name": "前端工程化实践",
+          "description": [
+            "使用 `React` 完成单页和常见应用的编写",
+            "使用 `React Native` 开发 App",
+            "熟悉 jQuery/Bootstrap 等常见框架类库的使用",
+            "使用 `Gulp , Webpack` 等代码构建工具"
+          ]
+        }
+      ]
     },
     "cloud": {
       "name": "Web后端",
-      "skill": [{
-        "name": "`Node.js`",
-        "description": [
-          "使用 `TypeScript + Koa2/Express` 等框架搭建后端服务",
-          "`使用 Node.js 开发命令行/爬虫程序`，并发布至 NPM ",
-          "能配合 MongoDB 完成 CRUD",
-          "使用 ` Jest/Mocha/Ava `编写单元测试 并通过 Ci 实现项目持续集成"
-        ]
-      }, {
-        "name": "其它知识",
-        "description": [
-          "熟悉` HTTP 常见知识`,对 HTTP2/WebSocket 等新知识有所了解",
-          "日常使用 `Docker` 完成项目的构建与部署",
-          "完成 `Nginx` 的配置，实现反向代理等功能"
-        ]
-      }]
+      "skill": [
+        {
+          "name": "`Node.js`",
+          "description": [
+            "使用 `Express` 框架搭建后端服务",
+            "`使用 Node.js 开发命令行/爬虫程序`",
+            "能配合 MongoDB 完成 CRUD操作"
+          ]
+        },
+        {
+          "name": "其它知识",
+          "description": ["熟悉` HTTP 常见知识`，了解 HTTP2/WebSocket 等新知识"]
+        }
+      ]
     },
     "gears": {
       "name": "其它",
-      "skill": [{
-        "name": "`计算机基础`",
-        "description": [
-          "计算机基础较好，`对计算机与编程有极大热情，自学能力较强`",
-          "在校选课与 MOOC 自学《计算机科学导论》，《计算机网络》等课程",
-          "自学`数据结构与算法`，用 JavaScript 实现并归纳总结 -- <a href=\"http://t.cn/R4Ybrs0\">总结地址</a>",
-          "`坚持写原创技术博客，月浏览量3k`，在 Github 有自己的开源项目"
-        ]
-      }, {
-        "name": "工具使用",
-        "description": [
-          "`一年 Linux 使用经验`，使用 MacOS 作为日常系统",
-          "熟练使用 Git 等代码管理与团队协作工具，`使用 Gitflow 开发项目`并尝试在团队内推广使用",
-          "日常使用 ` VSCode / Webstorm` 进行开发"
-        ]
-      }]
+      "skill": [
+        {
+          "name": "`计算机基础`",
+          "description": [
+            "计算机基础较好，`对编程有极大热情，自学能力较强`",
+            "`数据结构与算法基础较好,坚持练习算法`，用 C++ 实现， 学习记录 -- <a href=\"https://github.com/mieruko0713/mieruko_algorithms\">浙江大学 OJ 部分题目通关练习</a>",
+            "`坚持写<a href=\"http://mieruko.cn/\">原创技术博客</a>，在 Github 有自己的开源项目`"
+          ]
+        },
+        {
+          "name": "工具使用",
+          "description": [
+            "两年 MacOS 使用经验,`使用 Shell 完成日常应用开发`",
+            "熟练使用 Git 等代码管理与团队协作工具",
+            "日常使用 ` VSCode / Webstorm` 进行开发"
+          ]
+        }
+      ]
     }
   }
 }

@@ -8,7 +8,7 @@ module.exports = async function generatePdf (url) {
     height: 900
   })
   await page.goto(url)
-  await page.pdf({ path: './src/pdf/LxxyxResume.pdf', format: 'A4' })
+  await page.pdf({ path: './src/pdf/MierukoResume.pdf', format: 'A4' })
   console.log('PDF生成在 ./src/pdf 中了')
   browser.close()
 }
